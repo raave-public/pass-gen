@@ -1,0 +1,19 @@
+@font-face {
+    font-family: inter;
+    src: url('../assets/fonts/inter.ttf');
+}
+
+* {
+    font-family: inter !important;
+    color: white !important;
+}
+
+body {
+    display: grid;
+    place-content: center;
+
+    height: 100vh;
+    
+    background-image: url('https://i.imgur.com/Yq0IDfj.jpeg');
+    background-size: cover;
+}

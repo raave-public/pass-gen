@@ -1,0 +1,100 @@
+.glass_card {
+    width: 500px;
+    height: 300px;
+
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card_align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_element {
+    margin: 5px;
+}
+
+#title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.input_glass {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    outline: none;
+}
+
+#pass_field {
+    width: 250px;
+    padding: 10px;
+
+    text-align: center;
+}
+
+#pass_length_field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.plf_element {
+    margin: 5px 5px;
+}
+
+#pass_length {
+    -webkit-appearance: none;
+    appearance: none;
+
+    width: 150px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    outline: none;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #04AA6D;
+    border-radius: 10px;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #04AA6D;
+    border-radius: 10px;
+}
+
+#label_width {
+    width: 20px;
+}
+
+#buttons_field {
+    display: flex;
+    flex-direction: row;
+}
